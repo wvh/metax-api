@@ -567,6 +567,66 @@
         "totalbytesize": 1024,
         "value": [
             777
+        ],
+        "files": [
+            {
+                "identifier": "somefilepid",
+                "title": "Title",
+                "description": "Description",
+                "accessURL": {
+                    "identifier": "https://download.url.of.file.com",
+                    "title": [{
+                        "en": "A name given to the document, which would be an actual downloadable file"
+                    }],
+                    "description" : [{
+                        "en": "Could be any kind of URL that gives access to a distribution of the dataset. E.g. landing page download"
+                    }]
+                },
+                "type": {
+                    "identifier": "filetypeidentifier",
+                    "prefLabel": [{
+                        "en": "pref label"
+                    }],
+                    "definition": [{
+                        "en": "A statement or formal explanation of the meaning of a concept."
+                    }],
+                    "inScheme": [{
+                        "prefLabel": [{
+                            "en": "The preferred lexical label for a resource"
+                        }],
+                        "identifier": "http://uri.of.file.concept/scheme"
+                    }]
+                }
+            },
+            {
+                "identifier": "somefilepid2",
+                "title": "Title 2",
+                "description": "Description",
+                "accessURL": {
+                    "identifier": "https://download.url.of.file2.com",
+                    "title": [{
+                        "en": "A name given to the document, which would be an actual downloadable file"
+                    }],
+                    "description" : [{
+                        "en": "Could be any kind of URL that gives access to a distribution of the dataset. E.g. landing page download"
+                    }]
+                },
+                "type": {
+                    "identifier": "filetypeidentifier",
+                    "prefLabel": [{
+                        "en": "pref label"
+                    }],
+                    "definition": [{
+                        "en": "A statement or formal explanation of the meaning of a concept."
+                    }],
+                    "inScheme": [{
+                        "prefLabel": [{
+                            "en": "The preferred lexical label for a resource"
+                        }],
+                        "identifier": "http://uri.of.file.concept/scheme"
+                    }]
+                }
+            }
         ]
     }
 }
