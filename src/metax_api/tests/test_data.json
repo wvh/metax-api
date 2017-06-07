@@ -1,351 +1,351 @@
 [
     {
-        "pk": "8f37e9d0-cbb0-4293-bad2-7637733cbc2c",
+        "model": "metax_api.filestorage",
         "fields": {
             "file_storage_json": {
-                "identifier": "identifier1",
                 "title": "Title 1",
+                "identifier": "identifier1",
                 "url": "https://metax.csc.local/rest/files/"
             },
-            "created_by_api": "2017-05-23T10:07:22.559656Z",
-            "modified_by_api": "2017-05-23T10:07:22.559656Z"
+            "modified_by_api": "2017-05-23T10:07:22.559656Z",
+            "created_by_api": "2017-05-23T10:07:22.559656Z"
         },
-        "model": "metax_api.filestorage"
+        "pk": "ba0babce-9c43-44d4-a36f-a354baf866ea"
     },
     {
-        "pk": "c6e073fe-6c2c-4526-9f18-594b041c007d",
+        "model": "metax_api.filestorage",
         "fields": {
             "file_storage_json": {
-                "identifier": "identifier2",
                 "title": "Title 2",
+                "identifier": "identifier2",
                 "url": "https://metax.csc.local/rest/files/"
             },
-            "created_by_api": "2017-05-23T10:07:22.559656Z",
-            "modified_by_api": "2017-05-23T10:07:22.559656Z"
+            "modified_by_api": "2017-05-23T10:07:22.559656Z",
+            "created_by_api": "2017-05-23T10:07:22.559656Z"
         },
-        "model": "metax_api.filestorage"
+        "pk": "a616553b-bf68-4446-a585-e9cf5a071df8"
     },
     {
-        "pk": "de85966d-4981-4072-b44d-c7b8ca01faa7",
+        "model": "metax_api.filestorage",
         "fields": {
             "file_storage_json": {
-                "identifier": "identifier3",
                 "title": "Title 3",
+                "identifier": "identifier3",
                 "url": "https://metax.csc.local/rest/files/"
             },
-            "created_by_api": "2017-05-23T10:07:22.559656Z",
-            "modified_by_api": "2017-05-23T10:07:22.559656Z"
+            "modified_by_api": "2017-05-23T10:07:22.559656Z",
+            "created_by_api": "2017-05-23T10:07:22.559656Z"
         },
-        "model": "metax_api.filestorage"
+        "pk": "315fbf87-4329-414c-a04c-5105b6a5b2a7"
     },
     {
-        "pk": "a92432f7-0ac3-48d6-9de9-b4447d549caf",
+        "model": "metax_api.file",
         "fields": {
-            "created_by_api": "2017-05-23T10:07:22.559656Z",
             "checksum_algorithm": "sha2",
             "identifier": "urn:nbn:fi:csc-ida201401200000000001",
-            "file_modified": "2017-05-23T14:41:59.507392Z",
-            "checksum_checked": null,
-            "open_access": false,
-            "download_url": "http://some.url.csc.fi/0000000001",
-            "checksum_value": "habeebit",
-            "access_group": "my group",
-            "file_path": "/some/path/",
             "file_characteristics": {
-                "application_name": "Application Name",
-                "title": "A title 0000000010",
+                "description": "A nice description 0000000010",
                 "metadata_modified": "2014-01-17T08:19:31Z",
                 "file_created": "2014-01-17T08:19:31Z",
+                "title": "A title 0000000010",
                 "encoding": "utf-8",
-                "description": "A nice description 0000000010"
+                "application_name": "Application Name"
             },
-            "file_name": "file_name_0000000001",
-            "file_storage_id": "8f37e9d0-cbb0-4293-bad2-7637733cbc2c",
-            "removed": false,
             "file_format": "html/text",
-            "replication_path": "empty",
+            "removed": false,
+            "file_path": "/some/path/",
+            "checksum_checked": null,
             "byte_size": 0,
-            "modified_by_api": "2017-05-23T10:07:22.559656Z"
+            "open_access": false,
+            "modified_by_api": "2017-05-23T10:07:22.559656Z",
+            "access_group": "my group",
+            "download_url": "http://some.url.csc.fi/0000000001",
+            "created_by_api": "2017-05-23T10:07:22.559656Z",
+            "file_name": "file_name_0000000001",
+            "replication_path": "empty",
+            "file_storage_id": "ba0babce-9c43-44d4-a36f-a354baf866ea",
+            "file_modified": "2017-05-23T14:41:59.507392Z",
+            "checksum_value": "habeebit"
         },
-        "model": "metax_api.file"
+        "pk": "ad98e5ab-28ec-4400-89d0-0bcd1dd01d33"
     },
     {
-        "pk": "5881ce13-9f99-4121-bbc4-56939e94d6fa",
+        "model": "metax_api.file",
         "fields": {
-            "created_by_api": "2017-05-23T10:07:22.559656Z",
             "checksum_algorithm": "sha2",
             "identifier": "urn:nbn:fi:csc-ida201401200000000002",
-            "file_modified": "2017-05-23T14:41:59.507392Z",
-            "checksum_checked": null,
-            "open_access": false,
-            "download_url": "http://some.url.csc.fi/0000000002",
-            "checksum_value": "habeebit",
-            "access_group": "my group",
-            "file_path": "/some/path/",
             "file_characteristics": {
-                "application_name": "Application Name",
-                "title": "A title 0000000010",
+                "description": "A nice description 0000000010",
                 "metadata_modified": "2014-01-17T08:19:31Z",
                 "file_created": "2014-01-17T08:19:31Z",
+                "title": "A title 0000000010",
                 "encoding": "utf-8",
-                "description": "A nice description 0000000010"
+                "application_name": "Application Name"
             },
-            "file_name": "file_name_0000000002",
-            "file_storage_id": "8f37e9d0-cbb0-4293-bad2-7637733cbc2c",
-            "removed": false,
             "file_format": "html/text",
-            "replication_path": "empty",
+            "removed": false,
+            "file_path": "/some/path/",
+            "checksum_checked": null,
             "byte_size": 0,
-            "modified_by_api": "2017-05-23T10:07:22.559656Z"
+            "open_access": false,
+            "modified_by_api": "2017-05-23T10:07:22.559656Z",
+            "access_group": "my group",
+            "download_url": "http://some.url.csc.fi/0000000002",
+            "created_by_api": "2017-05-23T10:07:22.559656Z",
+            "file_name": "file_name_0000000002",
+            "replication_path": "empty",
+            "file_storage_id": "ba0babce-9c43-44d4-a36f-a354baf866ea",
+            "file_modified": "2017-05-23T14:41:59.507392Z",
+            "checksum_value": "habeebit"
         },
-        "model": "metax_api.file"
+        "pk": "a883f5db-46dc-4078-81d2-ad922b52a35a"
     },
     {
-        "pk": "4da9f1e5-d7c1-4111-a580-59a7c9a65ed0",
+        "model": "metax_api.file",
         "fields": {
-            "created_by_api": "2017-05-23T10:07:22.559656Z",
             "checksum_algorithm": "sha2",
             "identifier": "urn:nbn:fi:csc-ida201401200000000003",
-            "file_modified": "2017-05-23T14:41:59.507392Z",
-            "checksum_checked": null,
-            "open_access": false,
-            "download_url": "http://some.url.csc.fi/0000000003",
-            "checksum_value": "habeebit",
-            "access_group": "my group",
-            "file_path": "/some/path/",
             "file_characteristics": {
-                "application_name": "Application Name",
-                "title": "A title 0000000010",
+                "description": "A nice description 0000000010",
                 "metadata_modified": "2014-01-17T08:19:31Z",
                 "file_created": "2014-01-17T08:19:31Z",
+                "title": "A title 0000000010",
                 "encoding": "utf-8",
-                "description": "A nice description 0000000010"
+                "application_name": "Application Name"
             },
-            "file_name": "file_name_0000000003",
-            "file_storage_id": "8f37e9d0-cbb0-4293-bad2-7637733cbc2c",
-            "removed": false,
             "file_format": "html/text",
-            "replication_path": "empty",
+            "removed": false,
+            "file_path": "/some/path/",
+            "checksum_checked": null,
             "byte_size": 0,
-            "modified_by_api": "2017-05-23T10:07:22.559656Z"
+            "open_access": false,
+            "modified_by_api": "2017-05-23T10:07:22.559656Z",
+            "access_group": "my group",
+            "download_url": "http://some.url.csc.fi/0000000003",
+            "created_by_api": "2017-05-23T10:07:22.559656Z",
+            "file_name": "file_name_0000000003",
+            "replication_path": "empty",
+            "file_storage_id": "ba0babce-9c43-44d4-a36f-a354baf866ea",
+            "file_modified": "2017-05-23T14:41:59.507392Z",
+            "checksum_value": "habeebit"
         },
-        "model": "metax_api.file"
+        "pk": "8a1ed57c-a7cf-4975-af48-347fd2cc8aee"
     },
     {
-        "pk": "e48b8021-c7c2-4a15-8488-d6876b4a3d52",
+        "model": "metax_api.file",
         "fields": {
-            "created_by_api": "2017-05-23T10:07:22.559656Z",
             "checksum_algorithm": "sha2",
             "identifier": "urn:nbn:fi:csc-ida201401200000000004",
-            "file_modified": "2017-05-23T14:41:59.507392Z",
-            "checksum_checked": null,
-            "open_access": false,
-            "download_url": "http://some.url.csc.fi/0000000004",
-            "checksum_value": "habeebit",
-            "access_group": "my group",
-            "file_path": "/some/path/",
             "file_characteristics": {
-                "application_name": "Application Name",
-                "title": "A title 0000000010",
+                "description": "A nice description 0000000010",
                 "metadata_modified": "2014-01-17T08:19:31Z",
                 "file_created": "2014-01-17T08:19:31Z",
+                "title": "A title 0000000010",
                 "encoding": "utf-8",
-                "description": "A nice description 0000000010"
+                "application_name": "Application Name"
             },
-            "file_name": "file_name_0000000004",
-            "file_storage_id": "8f37e9d0-cbb0-4293-bad2-7637733cbc2c",
-            "removed": false,
             "file_format": "html/text",
-            "replication_path": "empty",
+            "removed": false,
+            "file_path": "/some/path/",
+            "checksum_checked": null,
             "byte_size": 0,
-            "modified_by_api": "2017-05-23T10:07:22.559656Z"
+            "open_access": false,
+            "modified_by_api": "2017-05-23T10:07:22.559656Z",
+            "access_group": "my group",
+            "download_url": "http://some.url.csc.fi/0000000004",
+            "created_by_api": "2017-05-23T10:07:22.559656Z",
+            "file_name": "file_name_0000000004",
+            "replication_path": "empty",
+            "file_storage_id": "ba0babce-9c43-44d4-a36f-a354baf866ea",
+            "file_modified": "2017-05-23T14:41:59.507392Z",
+            "checksum_value": "habeebit"
         },
-        "model": "metax_api.file"
+        "pk": "c7d5145f-f7dd-40db-a144-78ab0f7ef0f9"
     },
     {
-        "pk": "d1515170-915d-4da0-829c-be95d5490711",
+        "model": "metax_api.file",
         "fields": {
-            "created_by_api": "2017-05-23T10:07:22.559656Z",
             "checksum_algorithm": "sha2",
             "identifier": "urn:nbn:fi:csc-ida201401200000000005",
-            "file_modified": "2017-05-23T14:41:59.507392Z",
-            "checksum_checked": null,
-            "open_access": false,
-            "download_url": "http://some.url.csc.fi/0000000005",
-            "checksum_value": "habeebit",
-            "access_group": "my group",
-            "file_path": "/some/path/",
             "file_characteristics": {
-                "application_name": "Application Name",
-                "title": "A title 0000000010",
+                "description": "A nice description 0000000010",
                 "metadata_modified": "2014-01-17T08:19:31Z",
                 "file_created": "2014-01-17T08:19:31Z",
+                "title": "A title 0000000010",
                 "encoding": "utf-8",
-                "description": "A nice description 0000000010"
+                "application_name": "Application Name"
             },
-            "file_name": "file_name_0000000005",
-            "file_storage_id": "8f37e9d0-cbb0-4293-bad2-7637733cbc2c",
-            "removed": false,
             "file_format": "html/text",
-            "replication_path": "empty",
+            "removed": false,
+            "file_path": "/some/path/",
+            "checksum_checked": null,
             "byte_size": 0,
-            "modified_by_api": "2017-05-23T10:07:22.559656Z"
+            "open_access": false,
+            "modified_by_api": "2017-05-23T10:07:22.559656Z",
+            "access_group": "my group",
+            "download_url": "http://some.url.csc.fi/0000000005",
+            "created_by_api": "2017-05-23T10:07:22.559656Z",
+            "file_name": "file_name_0000000005",
+            "replication_path": "empty",
+            "file_storage_id": "ba0babce-9c43-44d4-a36f-a354baf866ea",
+            "file_modified": "2017-05-23T14:41:59.507392Z",
+            "checksum_value": "habeebit"
         },
-        "model": "metax_api.file"
+        "pk": "0cbf960f-dec6-4919-8b25-67f21cec7da7"
     },
     {
-        "pk": "b195c397-703a-4c97-9753-e4e846a53836",
+        "model": "metax_api.file",
         "fields": {
-            "created_by_api": "2017-05-23T10:07:22.559656Z",
             "checksum_algorithm": "sha2",
             "identifier": "urn:nbn:fi:csc-ida201401200000000006",
-            "file_modified": "2017-05-23T14:41:59.507392Z",
-            "checksum_checked": null,
-            "open_access": false,
-            "download_url": "http://some.url.csc.fi/0000000006",
-            "checksum_value": "habeebit",
-            "access_group": "my group",
-            "file_path": "/some/path/",
             "file_characteristics": {
-                "application_name": "Application Name",
-                "title": "A title 0000000010",
+                "description": "A nice description 0000000010",
                 "metadata_modified": "2014-01-17T08:19:31Z",
                 "file_created": "2014-01-17T08:19:31Z",
+                "title": "A title 0000000010",
                 "encoding": "utf-8",
-                "description": "A nice description 0000000010"
+                "application_name": "Application Name"
             },
-            "file_name": "file_name_0000000006",
-            "file_storage_id": "8f37e9d0-cbb0-4293-bad2-7637733cbc2c",
-            "removed": false,
             "file_format": "html/text",
-            "replication_path": "empty",
+            "removed": false,
+            "file_path": "/some/path/",
+            "checksum_checked": null,
             "byte_size": 0,
-            "modified_by_api": "2017-05-23T10:07:22.559656Z"
+            "open_access": false,
+            "modified_by_api": "2017-05-23T10:07:22.559656Z",
+            "access_group": "my group",
+            "download_url": "http://some.url.csc.fi/0000000006",
+            "created_by_api": "2017-05-23T10:07:22.559656Z",
+            "file_name": "file_name_0000000006",
+            "replication_path": "empty",
+            "file_storage_id": "ba0babce-9c43-44d4-a36f-a354baf866ea",
+            "file_modified": "2017-05-23T14:41:59.507392Z",
+            "checksum_value": "habeebit"
         },
-        "model": "metax_api.file"
+        "pk": "9228d110-c386-40b8-87e7-5ad8e67a0038"
     },
     {
-        "pk": "736bd0d6-bdb4-40f1-84e1-a98dc73859f6",
+        "model": "metax_api.file",
         "fields": {
-            "created_by_api": "2017-05-23T10:07:22.559656Z",
             "checksum_algorithm": "sha2",
             "identifier": "urn:nbn:fi:csc-ida201401200000000007",
-            "file_modified": "2017-05-23T14:41:59.507392Z",
-            "checksum_checked": null,
-            "open_access": false,
-            "download_url": "http://some.url.csc.fi/0000000007",
-            "checksum_value": "habeebit",
-            "access_group": "my group",
-            "file_path": "/some/path/",
             "file_characteristics": {
-                "application_name": "Application Name",
-                "title": "A title 0000000010",
+                "description": "A nice description 0000000010",
                 "metadata_modified": "2014-01-17T08:19:31Z",
                 "file_created": "2014-01-17T08:19:31Z",
+                "title": "A title 0000000010",
                 "encoding": "utf-8",
-                "description": "A nice description 0000000010"
+                "application_name": "Application Name"
             },
-            "file_name": "file_name_0000000007",
-            "file_storage_id": "8f37e9d0-cbb0-4293-bad2-7637733cbc2c",
-            "removed": false,
             "file_format": "html/text",
-            "replication_path": "empty",
+            "removed": false,
+            "file_path": "/some/path/",
+            "checksum_checked": null,
             "byte_size": 0,
-            "modified_by_api": "2017-05-23T10:07:22.559656Z"
+            "open_access": false,
+            "modified_by_api": "2017-05-23T10:07:22.559656Z",
+            "access_group": "my group",
+            "download_url": "http://some.url.csc.fi/0000000007",
+            "created_by_api": "2017-05-23T10:07:22.559656Z",
+            "file_name": "file_name_0000000007",
+            "replication_path": "empty",
+            "file_storage_id": "ba0babce-9c43-44d4-a36f-a354baf866ea",
+            "file_modified": "2017-05-23T14:41:59.507392Z",
+            "checksum_value": "habeebit"
         },
-        "model": "metax_api.file"
+        "pk": "ad51d276-c2fa-49ce-94ff-2704debdefa6"
     },
     {
-        "pk": "4051b6af-bdce-4707-8f5b-195a7d281268",
+        "model": "metax_api.file",
         "fields": {
-            "created_by_api": "2017-05-23T10:07:22.559656Z",
             "checksum_algorithm": "sha2",
             "identifier": "urn:nbn:fi:csc-ida201401200000000008",
-            "file_modified": "2017-05-23T14:41:59.507392Z",
-            "checksum_checked": null,
-            "open_access": false,
-            "download_url": "http://some.url.csc.fi/0000000008",
-            "checksum_value": "habeebit",
-            "access_group": "my group",
-            "file_path": "/some/path/",
             "file_characteristics": {
-                "application_name": "Application Name",
-                "title": "A title 0000000010",
+                "description": "A nice description 0000000010",
                 "metadata_modified": "2014-01-17T08:19:31Z",
                 "file_created": "2014-01-17T08:19:31Z",
+                "title": "A title 0000000010",
                 "encoding": "utf-8",
-                "description": "A nice description 0000000010"
+                "application_name": "Application Name"
             },
-            "file_name": "file_name_0000000008",
-            "file_storage_id": "8f37e9d0-cbb0-4293-bad2-7637733cbc2c",
-            "removed": false,
             "file_format": "html/text",
-            "replication_path": "empty",
+            "removed": false,
+            "file_path": "/some/path/",
+            "checksum_checked": null,
             "byte_size": 0,
-            "modified_by_api": "2017-05-23T10:07:22.559656Z"
+            "open_access": false,
+            "modified_by_api": "2017-05-23T10:07:22.559656Z",
+            "access_group": "my group",
+            "download_url": "http://some.url.csc.fi/0000000008",
+            "created_by_api": "2017-05-23T10:07:22.559656Z",
+            "file_name": "file_name_0000000008",
+            "replication_path": "empty",
+            "file_storage_id": "ba0babce-9c43-44d4-a36f-a354baf866ea",
+            "file_modified": "2017-05-23T14:41:59.507392Z",
+            "checksum_value": "habeebit"
         },
-        "model": "metax_api.file"
+        "pk": "35e5d6d7-a3e5-422b-a26f-8f4920e6f4d5"
     },
     {
-        "pk": "36a12178-d601-431e-8540-b97d3bbf9bba",
+        "model": "metax_api.file",
         "fields": {
-            "created_by_api": "2017-05-23T10:07:22.559656Z",
             "checksum_algorithm": "sha2",
             "identifier": "urn:nbn:fi:csc-ida201401200000000009",
-            "file_modified": "2017-05-23T14:41:59.507392Z",
-            "checksum_checked": null,
-            "open_access": false,
-            "download_url": "http://some.url.csc.fi/0000000009",
-            "checksum_value": "habeebit",
-            "access_group": "my group",
-            "file_path": "/some/path/",
             "file_characteristics": {
-                "application_name": "Application Name",
-                "title": "A title 0000000010",
+                "description": "A nice description 0000000010",
                 "metadata_modified": "2014-01-17T08:19:31Z",
                 "file_created": "2014-01-17T08:19:31Z",
+                "title": "A title 0000000010",
                 "encoding": "utf-8",
-                "description": "A nice description 0000000010"
+                "application_name": "Application Name"
             },
-            "file_name": "file_name_0000000009",
-            "file_storage_id": "8f37e9d0-cbb0-4293-bad2-7637733cbc2c",
-            "removed": false,
             "file_format": "html/text",
-            "replication_path": "empty",
+            "removed": false,
+            "file_path": "/some/path/",
+            "checksum_checked": null,
             "byte_size": 0,
-            "modified_by_api": "2017-05-23T10:07:22.559656Z"
+            "open_access": false,
+            "modified_by_api": "2017-05-23T10:07:22.559656Z",
+            "access_group": "my group",
+            "download_url": "http://some.url.csc.fi/0000000009",
+            "created_by_api": "2017-05-23T10:07:22.559656Z",
+            "file_name": "file_name_0000000009",
+            "replication_path": "empty",
+            "file_storage_id": "ba0babce-9c43-44d4-a36f-a354baf866ea",
+            "file_modified": "2017-05-23T14:41:59.507392Z",
+            "checksum_value": "habeebit"
         },
-        "model": "metax_api.file"
+        "pk": "02da12bd-a19a-4539-be9a-1945d6813c3a"
     },
     {
-        "pk": "cdeda7bc-cd14-451b-b32c-4bb19748375a",
+        "model": "metax_api.file",
         "fields": {
-            "created_by_api": "2017-05-23T10:07:22.559656Z",
             "checksum_algorithm": "sha2",
             "identifier": "urn:nbn:fi:csc-ida201401200000000010",
-            "file_modified": "2017-05-23T14:41:59.507392Z",
-            "checksum_checked": null,
-            "open_access": false,
-            "download_url": "http://some.url.csc.fi/0000000010",
-            "checksum_value": "habeebit",
-            "access_group": "my group",
-            "file_path": "/some/path/",
             "file_characteristics": {
-                "application_name": "Application Name",
-                "title": "A title 0000000010",
+                "description": "A nice description 0000000010",
                 "metadata_modified": "2014-01-17T08:19:31Z",
                 "file_created": "2014-01-17T08:19:31Z",
+                "title": "A title 0000000010",
                 "encoding": "utf-8",
-                "description": "A nice description 0000000010"
+                "application_name": "Application Name"
             },
-            "file_name": "file_name_0000000010",
-            "file_storage_id": "8f37e9d0-cbb0-4293-bad2-7637733cbc2c",
-            "removed": false,
             "file_format": "html/text",
-            "replication_path": "empty",
+            "removed": false,
+            "file_path": "/some/path/",
+            "checksum_checked": null,
             "byte_size": 0,
-            "modified_by_api": "2017-05-23T10:07:22.559656Z"
+            "open_access": false,
+            "modified_by_api": "2017-05-23T10:07:22.559656Z",
+            "access_group": "my group",
+            "download_url": "http://some.url.csc.fi/0000000010",
+            "created_by_api": "2017-05-23T10:07:22.559656Z",
+            "file_name": "file_name_0000000010",
+            "replication_path": "empty",
+            "file_storage_id": "ba0babce-9c43-44d4-a36f-a354baf866ea",
+            "file_modified": "2017-05-23T14:41:59.507392Z",
+            "checksum_value": "habeebit"
         },
-        "model": "metax_api.file"
+        "pk": "d91659ee-4d2f-4986-bca5-98677107bc27"
     }
 ]

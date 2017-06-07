@@ -62,6 +62,7 @@ class FileApiReadTestV1(APITestCase):
         self.assertEqual(response.status_code, status.HTTP_404_NOT_FOUND)
 
     def test_model_fields_as_expected(self):
+        d(self.identifier)
         response = self.client.get('/rest/files/%s' % self.identifier)
         self.assertEqual(response.status_code, status.HTTP_200_OK)
         actual_received_fields = [field for field in response.data.keys()]

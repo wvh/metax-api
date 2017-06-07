@@ -2,20 +2,28 @@ from jsonschema import validate as json_validate
 from jsonschema.exceptions import ValidationError as JsonValidationError
 from rest_framework.serializers import ModelSerializer, ValidationError
 
-from metax_api.models import Dataset
+from metax_api.models import DatasetCatalog
 
-import logging
-_logger = logging.getLogger(__name__)
-d = logging.getLogger(__name__).debug
-
-class DatasetReadSerializer(ModelSerializer):
+class DatasetCatalogReadSerializer(ModelSerializer):
 
     class Meta:
-        model = Dataset
+        model = DatasetCatalog
         fields = (
-            'identifier',
-            'dataset_json',
-            'dataset_catalog_id',
+            'id',
+            'catalog_json',
+            'modified_by_user_id',
+            'modified_by_api',
+            'created_by_user_id',
+            'created_by_api',
+        )
+
+class DatasetCatalogWriteSerializer(ModelSerializer):
+
+    class Meta:
+        model = DatasetCatalog
+        fields = (
+            'id',
+            'catalog_json',
             'modified_by_user_id',
             'modified_by_api',
             'created_by_user_id',
@@ -30,7 +38,7 @@ class DatasetReadSerializer(ModelSerializer):
             'created_by_api': { 'required': False },
         }
 
-    def validate_dataset_json(self, value):
+    def validate_catalog_json(self, value):
         try:
             json_validate(value, self.context['view'].json_schema)
         except JsonValidationError as e:

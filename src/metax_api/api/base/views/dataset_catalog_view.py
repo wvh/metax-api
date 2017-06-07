@@ -1,20 +1,20 @@
-from metax_api.models import Dataset
+from metax_api.models import DatasetCatalog
 from .common_view import CommonViewSet
-from ..serializers import DatasetReadSerializer
+from ..serializers import DatasetCatalogReadSerializer
 
 import logging
 _logger = logging.getLogger(__name__)
 d = logging.getLogger(__name__).debug
 
-class DatasetViewSet(CommonViewSet):
+class DatasetCatalogViewSet(CommonViewSet):
 
     authentication_classes = ()
     permission_classes = ()
 
     # note: override get_queryset() to get more control
-    queryset = Dataset.objects.all()
-    serializer_class = DatasetReadSerializer
-    object = Dataset
+    queryset = DatasetCatalog.objects.all()
+    serializer_class = DatasetCatalogReadSerializer
+    object = DatasetCatalog
 
     lookup_field = 'pk'
 
@@ -23,11 +23,4 @@ class DatasetViewSet(CommonViewSet):
 
     def __init__(self, *args, **kwargs):
         self.set_json_schema(__file__)
-        super(DatasetViewSet, self).__init__(*args, **kwargs)
-
-    def get_object(self):
-        """
-        todo:
-        - look also by json field otherIdentifier, if no match is found?
-        """
-        return super(DatasetViewSet, self).get_object()
+        super(DatasetCatalogViewSet, self).__init__(*args, **kwargs)

@@ -71,6 +71,9 @@ REST_FRAMEWORK = {
     ]
 }
 
+if not DEBUG:
+    REST_FRAMEWORK['DEFAULT_RENDERER_CLASSES'] = ['rest_framework.renderers.JSONRenderer']
+
 ROOT_URLCONF = 'metax_api.urls'
 
 APPEND_SLASH = False
